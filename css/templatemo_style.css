@@ -355,7 +355,7 @@ h6 {
 
 .menu-wrapper a.toggle-menu {
     display: block;
-    background-color: #d8aa46;
+    background-color: #549151;
     color: white;
     text-align: center;
 }
@@ -380,7 +380,7 @@ h6 {
 #prevslide, #nextslide {
     width: 40px;
     height: 40px;
-    background-color: #d8aa46;
+    background-color: #549151;
     color: white;
     opacity: 1 !important;
     cursor: pointer;
