@@ -639,7 +639,7 @@ form input, form textarea {
     -webkit-backface-visibility: hidden;
   /* Chrome, Safari, Opera */
     backface-visibility: hidden;
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 .bioma-img-item img {
