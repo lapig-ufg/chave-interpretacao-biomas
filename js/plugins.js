@@ -1317,8 +1317,8 @@
                       '<div id="lightbox" style="display:none;">'+
                       '<a href="#" class="lightbox-close lightbox-button"></a>' +
                       '<div class="lightbox-nav">'+
-                      '<a href="#" class="lightbox-previous lightbox-button"></a>' +
-                      '<a href="#" class="lightbox-next lightbox-button"></a>' +
+                      /* '<a href="#" class="lightbox-previous lightbox-button"></a>' +
+                      '<a href="#" class="lightbox-next lightbox-button"></a>' + */
                       '</div>' +
                       '<div href="#" class="lightbox-caption"><p></p></div>' +
                       '</div>'
