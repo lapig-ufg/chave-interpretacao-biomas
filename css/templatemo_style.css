@@ -247,7 +247,7 @@ a:hover {
     color: #549151;
 }
 
-h2, h3, h4, h5, h6 {
+h3, h4, h6 {
     font-family: "Open Sans", Arial, sans-serif;
     color: #333333;
     margin: 0 0 30px 0;
@@ -261,14 +261,22 @@ h1 {
     font-family: FontAwesome;
     font-style: normal;
     line-height: 1;
-    margin: 0 0 30px 0;
+    margin: 0 0 0 0;
     text-align: center;
     font-weight: 500;
     font-size: 44px;
 }
 
 h2 {
-    font-size: 2.2em;
+    color: #549151;
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    line-height: 1;
+    margin: 0 0 30px 0;
+    text-align: center;
+    font-weight: 500;
+    font-size: 44px;
 }
 
 h3 {
@@ -280,7 +288,15 @@ h4 {
 }
 
 h5 {
-    font-size: 1em;
+    font-size: 1.6em;
+    color: white;
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    line-height: 1;
+    margin: 0 0 30px 0;
+    text-align: center;
+    font-weight: 500;
 }
 
 h6 {
@@ -303,6 +319,26 @@ h6 {
 .container-fluid {
     padding: 60px 80px;
 }
+
+.container-fluid2 {
+    /* padding: 60px 0px; */
+}
+
+.container-fluid-head {
+    padding: 10px 80px;
+    margin-bottom: 10px;
+    margin-left: 80px;
+    margin-right: 80px;
+    position: relative;
+    background-color: #e5e8ed;
+    overflow: hidden;
+  /* Chrome, Safari, Opera */
+    backface-visibility: hidden;
+    border-radius: 4px 4px 4px 4px;
+    opacity: 0.8;
+    text-align: center;
+}
+
 
 .content {
     display: none;
@@ -405,6 +441,18 @@ h6 {
    ========================================================================== */
 .toggle-content {
     margin-top: 30px;
+    display: block;
+    padding: 30px;
+    background-color: white;
+    overflow: hidden;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background-clip: padding-box;
+  /* stops bg color from leaking outside the border: */;
+}
+
+.toggle-content-top0 {
+    margin-top: 0px;
     display: block;
     padding: 30px;
     background-color: white;
@@ -631,6 +679,9 @@ form input, form textarea {
     .container-fluid {
         padding: 20px;
     }
+   /*  .container-fluid2 {
+        padding: 30px;
+    } */
 }
 
 /* ==========================================================================
@@ -639,7 +690,7 @@ form input, form textarea {
 
 
 .bioma-img-item {
-    margin-bottom: 30px;
+    margin-bottom: 0px;
     padding: 6px;
     position: relative;
     background-color: #549151;
@@ -704,6 +755,19 @@ label {
    ========================================================================== */
 
 .classe-title {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 6px;
+    position: relative;
+    background-color: #549151;
+    overflow: hidden;
+  /* Chrome, Safari, Opera */
+    backface-visibility: hidden;
+    border-radius: 4px 4px 4px 4px;
+    opacity: 0.9;
+}
+
+.map-title {
     margin-bottom: 30px;
     padding: 6px;
     position: relative;
@@ -711,5 +775,48 @@ label {
     overflow: hidden;
   /* Chrome, Safari, Opera */
     backface-visibility: hidden;
+    border-radius: 4px 4px 4px 4px;
     opacity: 0.9;
+}
+
+/* ==========================================================================
+    Nav Classes Styling
+   ========================================================================== */
+
+
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    color: white;
+    font-weight: 200;
+    font-size: 16px;
+    opacity: 0.9;
+}
+
+.nav>li {
+    float: left;
+    margin-bottom: -1px;
+    
+}
+
+.nav>li>a:hover, .nav>li>a {
+    text-decoration: none;
+    background-color: #549151;
+    font-family: FontAwesome;
+    border-radius: 4px 4px 0 0;
+    border: 1px solid transparent;
+    line-height: 1.42857143;
+    
+}
+
+.nav .open>a, .nav .open>a:hover, .nav .open>a:focus {
+    background-color: #549151;
+    border-color: #428bca;
+}
+
+
+.fonte-mapa a {
+    font-weight: 400;
+    color: white;
 }
