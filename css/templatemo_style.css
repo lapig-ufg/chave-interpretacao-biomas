@@ -826,6 +826,11 @@ label {
     Dropdown Styling
    ========================================================================== */
 
+   
+.dropdown-menu li:hover {
+    cursor: pointer;
+}
+
 
 .dropdown-item {
     display: block;
@@ -837,5 +842,5 @@ label {
     text-align: inherit;
     white-space: nowrap;
     background-color: transparent;
-    border: 0;
+    border: 10;
 }
