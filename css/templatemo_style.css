@@ -339,6 +339,23 @@ h6 {
     text-align: center;
 }
 
+/* .container-fluid_L {
+    border: 3px solid red;
+} */
+
+.mask
+    {
+        position: absolute;
+        margin-top: 30px;
+        float: left;
+        clear: none;
+        right: 1230px;
+        top: 190px;
+        background-color: red;
+        width: 45%;
+        height: 30em;
+}
+
 
 .content {
     display: none;
@@ -518,6 +535,7 @@ ul.tabs {
     text-transform: uppercase;
     color: #549151;
     font-weight: 600;
+    font-size: 15px;
 }
 
 /* ==========================================================================
@@ -531,7 +549,6 @@ ul.tabs {
     Gallery Styling
    ========================================================================== */
 .g-item {
-    margin-bottom: 30px;
     padding: 6px;
     position: relative;
     background-color: white;
