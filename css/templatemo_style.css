@@ -470,6 +470,7 @@ h6 {
     -webkit-border-radius: 10px;
     border-radius: 10px;
     background-clip: padding-box;
+    box-shadow: 0 3px 5px rgba(0,0,0,.4);
   /* stops bg color from leaking outside the border: */
     display: block;
 }
