@@ -395,17 +395,17 @@ h6 {
     display: block;
 }
 
-.menu-wrapper ul.menu {
+.menu-wrapper fieldset.menu {
     display: none;
     background-color: white;
     text-align: center;
 }
 
-.menu-wrapper ul.menu li {
+.menu-wrapper fieldset.menu div {
     border-top: 1px solid #c7cdd8;
 }
 
-.menu-wrapper ul.menu li a {
+.menu-wrapper fieldset.menu div a {
     text-transform: uppercase;
     display: block;
     padding: 18px 30px;
@@ -419,6 +419,7 @@ h6 {
     background-color: #549151;
     color: white;
     text-align: center;
+    opacity: 0.9;
 }
 
 .menu-wrapper a.toggle-menu i {
@@ -861,3 +862,33 @@ label {
     background-color: transparent;
     border: 10;
 }
+
+
+/* ==========================================================================
+    Vertical menu Styling
+   ========================================================================== */
+
+
+.vertical-menu {
+    width: 485px;
+    height: 200px;
+    overflow-y: auto;
+    border-radius: 0px 0px 0px 0px;
+  }
+  
+  .vertical-menu a {
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+  }
+  
+  .vertical-menu a:hover {
+    background-color: #549151;
+  }
+  
+  .vertical-menu a.active {
+    background-color: #6daa6a;
+    color: white;
+  }
