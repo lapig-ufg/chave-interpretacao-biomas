@@ -651,8 +651,8 @@ form input, form textarea {
 
 .footer {
     overflow: hidden;
-    position: fixed;
-    bottom: 10px;
+    position: relative;
+    bottom: 0px;
     color: white;
     font-size: 13px;
 }
@@ -871,7 +871,7 @@ label {
 
 .vertical-menu {
     width: 485px;
-    height: 200px;
+    height: 340px;
     overflow-y: auto;
     border-radius: 0px 0px 0px 0px;
   }
