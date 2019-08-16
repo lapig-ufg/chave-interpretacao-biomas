@@ -718,6 +718,7 @@ form input, form textarea {
   /* Chrome, Safari, Opera */
     backface-visibility: hidden;
     opacity: 0.9;
+    border-radius: 4px 4px 4px 4px;
 }
 
 .bioma-img-item img {
@@ -731,15 +732,15 @@ form input, form textarea {
     position: absolute;
     width: 100%;
     height: 100%;
-    /* background-color: #549151; */
+    background-color: #549151;
     text-align: center;
     top: 0;
     left: 0;
-    opacity: 1;
+    opacity: 0;
     filter: alpha(opacity=100);
 }
 
-.bioma-img-item .overlay {
+.bioma-img:hover .overlay {
     opacity: 0.3;
     filter: alpha(opacity=100);
 }
@@ -757,6 +758,9 @@ form input, form textarea {
     position: absolute;
     left: 0;
 }
+
+
+
 
 /* ==========================================================================
     Label text Styling
@@ -874,7 +878,7 @@ label {
     height: 340px;
     overflow-y: auto;
     border-radius: 0px 0px 0px 0px;
-  }
+}
   
   .vertical-menu a {
     background-color: #eee;
@@ -882,13 +886,29 @@ label {
     display: block;
     padding: 12px;
     text-decoration: none;
-  }
+}
   
   .vertical-menu a:hover {
     background-color: #549151;
-  }
+}
   
   .vertical-menu a.active {
     background-color: #6daa6a;
     color: white;
-  }
+}
+
+
+  .class_fieldset {
+    background-color: #549151;
+    opacity: 0.9;
+    border-radius: 4px 4px 0 0;
+    margin-bottom: 5px;
+}
+  .class_fieldset a {
+    color: white;
+    font-family: FontAwesome;
+    margin-left: 10px;
+    font-size: 16px;
+    background-color: #549151;
+    opacity: 0.9;
+}
