@@ -1,4 +1,3 @@
-## New Readme
 ## This is a repository under development.
 
 ### Below is a layout preview:
