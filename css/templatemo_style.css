@@ -218,19 +218,17 @@ h2,
     Structure & Defaults
    ========================================================================== */
 html, body {
-    font-size: 100%;
+   /*  font-size: 100%;
     width: 100%;
-    height: 100%;
+    height: 100%; */
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     vertical-align: baseline;
 }
 
 body {
-    font: 13px/19px "Open Sans", Arial, sans-serif;
-    font-weight: 300;
-    color: #777777;
-    background-color: #4c4c4c;
+    
+        
 }
 
 a {
@@ -250,7 +248,7 @@ a:hover {
 h3, h4, h6 {
     font-family: "Open Sans", Arial, sans-serif;
     color: #333333;
-    margin: 0 0 30px 0;
+    margin: 0 0 10px 0;
     text-transform: uppercase;
     font-weight: 700;
 }
@@ -460,7 +458,7 @@ h6 {
 .toggle-content {
     margin-top: 30px;
     display: block;
-    padding: 30px;
+    padding: 10px;
     background-color: white;
     overflow: hidden;
     -webkit-border-radius: 10px;
@@ -472,7 +470,7 @@ h6 {
 .toggle-content-top0 {
     margin-top: 0px;
     display: block;
-    padding: 30px;
+    padding: 10px;
     background-color: white;
     overflow: hidden;
     -webkit-border-radius: 10px;
@@ -658,7 +656,7 @@ form input, form textarea {
 }
 
 .footer a {
-    color: white;
+    color: #ddd;
 }
 
 /*------------------------------------------------------
@@ -791,6 +789,7 @@ label {
 }
 
 .map-title {
+    margin-top: 30px;
     margin-bottom: 30px;
     padding: 6px;
     position: relative;
@@ -912,3 +911,10 @@ label {
     background-color: #549151;
     opacity: 0.9;
 }
+
+.criterios p {
+    color: #333;
+    font-family: FontAwesome;
+    font-size: 16px;    
+}
+
