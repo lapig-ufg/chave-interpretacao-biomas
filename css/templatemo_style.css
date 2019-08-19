@@ -226,10 +226,6 @@ html, body {
     vertical-align: baseline;
 }
 
-body {
-    
-        
-}
 
 a {
     color: #549151;
@@ -318,9 +314,6 @@ h6 {
     padding: 60px 80px;
 }
 
-.container-fluid2 {
-    /* padding: 60px 0px; */
-}
 
 .container-fluid-head {
     padding: 10px 80px;
