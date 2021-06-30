@@ -1,11 +1,5 @@
-## This is a repository under development.
+## Interpretation Key.
 
 ### Below is a layout preview:
-### https://chave-biomas.herokuapp.com/
 
-<!-- Screenshot 1:
-![alt tag](https://raw.githubusercontent.com/lapig-ufg/chave-interpretacao-biomas/master/screenshots/screen-1.png)
-
-Screenshot 2:
-![alt tag](https://raw.githubusercontent.com/lapig-ufg/chave-interpretacao-biomas/master/screenshots/screen-2.png)
- -->
+[key_image](https://raw.githubusercontent.com/lapig-ufg/chave-interpretacao-biomas/master/screenshots/screen-2.png)
